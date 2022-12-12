@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    position: relative;
+}
+nav {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width: 65%;
+    padding: 10px 0;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.navbar-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .3s;
+}
+.list-items {
+    padding: 0 15px;
+    font-size:20px;
+    display: inline-block;
+}
+.links {
+    display: inline;
+    float: right;
+    text-align: center;
+}
+.links a {
+    padding: 10px 20px;
+}
+.logo {
+    display: inline;
+    float: left;
+    padding: 10px 20px;
+}
+
+a:hover {
+    color: green;
+    font-size: 30px;
+}
